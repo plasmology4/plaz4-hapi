@@ -1,0 +1,33 @@
+{id: "rich.john"
+, orgId: 1
+, locId: 1
+, title: "VP Information Technology"
+, firstname: "Rich"
+, lastname: "John"
+, password: "pw"
+, email: "rich.john@plasmology4.com"
+}
+
+
+{name : "Test Binder"
+    , label : "It's a binder"
+    , desc : "A test binder at that"
+    , type : "Awesome Type"
+    , version : "1.0"
+}
+
+db.binders.insert({name : "ops-binder"     , label : "Operations Workflow"     , desc : "A binder that contains process documentation for operations."     , type : "General"     , version : "1.0" });
+
+db.binders.insert({name : "ops-cust-svc"     , label : "Ops - Customer Service"     , desc : "A binder that contains process documentation for customer service workflows."     , type : "General"     , version : "1.0" });
+
+db.binders.insert({name : "ops-purchasing"     , label : "Ops - Purchasing"     , desc : "A binder that contains process documentation for purchasing workflows."     , type : "General"     , version : "1.0" });
+
+db.binders.insert({name : "ops-distribution"     , label : "Ops - Distribution"     , desc : "A binder that contains process documentation for distribution workflows."     , type : "General"     , version : "1.0" });
+
+db.binders.insert({name : "accounting"     , label : "Accounting"     , desc : "A binder that contains process documentation for purchasing workflows."     , type : "General"     , version : "1.0" });
+
+db.binders.insert({name : "it"     , label : "IT"     , desc : "A binder that contains process documentation for information technology workflows."     , type : "General"     , version : "1.0" });
+
+db.binders.insert({name : "hr"     , label : "HR"     , desc : "A binder that contains process documentation for human resources workflows."     , type : "General"     , version : "1.0" });
+
+

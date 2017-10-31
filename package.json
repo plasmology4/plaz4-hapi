@@ -1,0 +1,30 @@
+{
+  "name": "plaz4-hapi",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/plasmology4/plaz4-hapi.git"
+  },
+  "description": "API for Plasmology4",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "node app.js"
+  },
+  "author": "Rich John",
+  "license": "ISC",
+  "dependencies": {
+    "activedirectory": ">=0.7.2",
+    "good": ">=6.6.0",
+    "good-console": ">=5.3.1",
+    "hapi": ">=16.0.0",
+    "hapi-auth-jwt2": ">=7.3.0",
+    "hapi-cors": ">=1.0.1",
+    "hapi-require-https": ">=2.1.0",
+    "hapi-swagger": ">=7.7.1",
+    "inert": ">=3.2.1",
+    "jsonwebtoken": ">=7.4.3",
+    "vision": ">=4.1.1"
+  }
+}

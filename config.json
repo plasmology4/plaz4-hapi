@@ -1,0 +1,25 @@
+{    
+  // hapi configuration
+  "connections": [
+    {
+      "host": "0.0.0.0",
+      "port": 3030,
+      "labels": ["http", "api"]
+    }
+  ],
+  "plugins": {
+    "app-hapi": {
+        "aws": "plaz4-bucket",
+        "mongodb": {
+          "host": "127.0.0.1",
+          "port": 27017,
+          "db": "plaz4-mongo",
+          "username": "",
+          "password": ""
+        }
+      },
+    "iqms-hapi": {
+
+    }
+  }
+}
